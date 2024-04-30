@@ -2,7 +2,7 @@
 
 Name:		mingw-libffi
 Version:	3.4.4
-Release:	3%{?dist}
+Release:	5%{?dist}
 Summary:	A portable foreign function interface library for MinGW
 
 License:	MIT
@@ -103,6 +103,12 @@ find %{buildroot} -name "*.la" -delete
 
 
 %changelog
+* Thu Jan 25 2024 Fedora Release Engineering <releng@fedoraproject.org> - 3.4.4-5
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_40_Mass_Rebuild
+
+* Sun Jan 21 2024 Fedora Release Engineering <releng@fedoraproject.org> - 3.4.4-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_40_Mass_Rebuild
+
 * Mon Aug 7 2023 Konstantin Kostiuk <kkostiuk@redhat.com> - 3.4.4-3
 - Update license to SPDX format
 - Resolves: RHEL-1055
