@@ -1,8 +1,8 @@
 %{?mingw_package_header}
 
 Name:		mingw-libffi
-Version:	3.4.6
-Release:	2%{?dist}
+Version:	3.5.1
+Release:	1%{?dist}
 Summary:	A portable foreign function interface library for MinGW
 
 License:	MIT
@@ -103,6 +103,10 @@ find %{buildroot} -name "*.la" -delete
 
 
 %changelog
+* Thu Jul 10 2025 Miroslav Rezanina <mrezanin@redhat.com> - 3.5.1-1
+- Synchronize with Fedora Rawhide
+  Resolves: RHEL-102716
+
 * Tue Jan 14 2025 Miroslav Rezanina <mrezanin@redhat.com> - 3.4.6-2
 - Synchronize with Fedora Rawhide
   Resolves: RHEL-73823
